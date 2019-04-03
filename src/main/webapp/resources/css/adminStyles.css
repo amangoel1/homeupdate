@@ -1,0 +1,319 @@
+
+/* navbar admin*/
+
+
+.search{
+  border-radius: 20px;
+  padding: 0 15px;
+  margin:15px 30px;
+  width: 250px;
+  height: 36px;
+  border: 1px;
+  outline: none;
+}
+
+#nav_search_icon{
+  position: relative;
+  z-index: 1;
+  left: -60px;
+  top:1px;
+  color: #7B7B7B;
+  cursor:pointer;
+      
+}
+
+
+
+
+ .notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+  margin:0 25px 0 12px;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.mg-35
+{
+  margin-right:35px ;
+}
+
+.mg-15
+{
+  margin-right:15px ;
+} 
+
+
+
+
+
+
+
+
+.notification .badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  padding: 5px 8px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+/* end badge*/
+
+
+
+.logout-btn
+  {
+    background-color: rgb(233, 145, 62);
+  }
+
+/* end navbar */
+
+/* sidenav admin*/
+
+.sidenav {
+  margin-top:75px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:2;
+    background-color: rgb(44, 41, 41);
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+}
+
+
+.profile_pic
+{
+    width:60px;
+    height:50px;
+    margin:0 10px 0 30px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}  
+
+.toggle_btn
+{
+  position: realtive;
+  background-color: rgb(34, 33, 33);
+  color: whitesmoke;
+  border:0;
+  cursor: pointer;
+  width:50px;
+  height:40px;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav label
+  {
+      color: white;
+  }
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* content div */
+
+.content{
+      margin-left: 20%;
+      width:80%;
+      box-sizing: border-box;
+
+  }
+
+.top-head-table{
+  margin: 15% 16% 0 ;
+  width:73%;
+  color:whitesmoke;
+  position: relative;
+  top:10px;
+  background-color: rgb(44, 41, 41);
+  border-radius:4px;
+  padding:12px;
+}
+  
+  
+.table{
+  margin:0% 15% 5%;
+  width:75%;
+  border-radius:4px;
+  background-color: whitesmoke;
+}
+.service-scroll
+    {
+      /* display: block; */
+      max-height: 300px;
+      overflow: auto;
+      
+    }
+
+
+/* Profile card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 15% auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  
+}
+
+.card p {margin:0}
+
+
+.card .profile{
+  border-radius: 50%;
+  width:50%;
+  margin: -60px auto 10px;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.bottom-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* end profile card */
+
+.details
+  {
+    margin :15% 5%;
+    width:60%;
+    padding: 12px;
+    float:left;
+  }
+
+.field{
+  width:70%;
+  height:120px;
+  margin:5% 15%;
+
+}
+
+.update-profile{
+  float:right;
+  margin:5% 2% 1%;
+}
+
+.asign-btn
+   {
+    float:right;
+    margin:3% 18%
+   }
+
+   .add-service-btn
+   {
+    float: right;
+    border: 1px solid lightgray;
+    border-radius:28px;
+    margin-right:5%;
+    padding: 8px 15px;
+    background-color: burlywood;
+   }
+
+   .update-service-btn
+   {
+    float: right;
+    border: 1px solid lightgray;
+    border-radius:28px;
+    margin-right:12%;
+    padding: 8px 15px;
+    background-color: burlywood;
+   }
+   
+   .service-field{
+    background-color:transparent !important;
+    border:none ; 
+    outline: none;
+    border-bottom: 2px solid black
+   }
+
+   .service-field input:focus
+  {
+    border: none;
+    outline: none;
+   }
+  
+   
+   .modal{
+    position:absolute;
+    margin-top:13%;
+}
+
+.modal-btn
+{
+    border:none;
+    background-color:white; 
+}
+
+.modal-btn:focus
+{
+    outline-style:none;
+}
+
+
+
+.modal-table{
+    margin:auto; 
+    text-align: center;
+    border: 1px solid;
+}
+ 
+.modal-table td{
+    border:1px solid;
+    width:150px;
+    text-align: center;
+}

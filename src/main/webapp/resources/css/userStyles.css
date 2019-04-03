@@ -1,0 +1,168 @@
+
+/* navbar admin*/
+
+
+.search{
+    border-radius: 20px;
+    padding: 0 15px;
+    margin:15px 30px;
+    width: 200px;
+    height: 36px;
+    border: 1px;
+    outline: none;
+}
+
+#nav_search_icon{
+    position: relative;
+    z-index: 1;
+    left: -60px;
+    top:1px;
+    color: #7B7B7B;
+    cursor:pointer;
+        
+}
+
+  /* badge */
+
+  .notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    margin:0 25px 0 12px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  .mg-35
+  {
+    margin-right:35px ;
+  }
+
+  .mg-15
+  {
+    margin-right:15px ;
+  }
+  
+  .notification:hover {
+    background: orange;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+
+  /* end badge*/
+
+ 
+
+.logout-btn
+    {
+      background-color: orange;
+    }
+
+ /* end navbar */
+
+/* sidenav admin*/
+
+.sidenav {
+    margin-top:75px;
+    height: 94%;
+    width:250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+  }
+
+
+.profile_pic
+  {
+      width:60px;
+      height:50px;
+      margin:0 10px 0 30px;
+      border-top-right-radius: 50%;
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+
+  }  
+
+.toggle_btn
+  {
+    position: realtive;
+    background-color: rgb(34, 33, 33);
+    color: whitesmoke;
+    border:0;
+    cursor: pointer;
+    width:50px;
+    height:40px;
+    top:0;
+    left:0;
+    z-index: -1;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav label
+    {
+        color: white;
+    }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* content div */
+
+  .content{
+        margin-left: 250px;
+    }
+
+  .top-head-table{
+        margin: 15% 16% 0 ;
+        width:73%;
+        color:whitesmoke;
+        background-color: rgb(44, 41, 41);
+        border-radius:4px;
+        padding:12px;
+  }
+    
+    
+  .table{
+        margin:0% 15% 5%;
+        position: relative;
+        z-index: -1;
+        top:-10px;border-radius:4px;
+        background-color: whitesmoke;
+  }
+  table tr td{
+      padding: 5px;
+  }
+
+
+  

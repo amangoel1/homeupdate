@@ -1,0 +1,115 @@
+
+/*Styling for registration page*/
+
+
+    body{
+        background-image: linear-gradient(to right, #ff5722,#ff9800);
+        margin-top: 0px !important;
+    }
+
+    .logo img{
+        width:60px;
+        height:60px;
+        cursor: pointer;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+
+    
+    .admin-body{
+        background-image: linear-gradient(to right, #3fc0e7,hsl(246, 41%, 28%));
+    }
+
+    .worker-body{
+        background-image: linear-gradient(to right, #e6c044,hsl(34, 93%, 16%));
+    }
+    a:hover{
+        text-decoration: none;
+    }
+
+    button:focus{
+        outline-style: none;
+        cursor: pointer;
+    }
+    .active
+    {
+        color: white;
+        font-weight: bold;
+        
+    }
+
+    .navbar-custom {
+        color: #FFFFFF;
+        background-color: rgb(44, 41, 41);
+    }
+
+    
+   
+
+    #nav_search_icon{
+        position: relative;
+        z-index: 1;
+        left: -38px;
+        top:1px;
+        color: #7B7B7B;
+        cursor:pointer;
+    }
+
+    .login-btn{
+        border-radius:12px;
+        padding: 6px 20px;
+        outline: none;
+        background-color: orange;
+    }
+
+    .search-drop{
+        border-radius:24px;
+        padding: 6px 20px;
+        outline: none;
+    }
+
+    
+
+    @media (min-width:768px){.hide-large{display:none!important} .sidenav-collapse{width:272px!important}  }
+    @media (max-width:768px){.sidenav-collapse{width:0px;} .content{margin-left:0px!important}  .sidenav a {font-size: 12px;} .details{width: 100% !important; margin: 15% 12% !important; } .card{width: 100% !important; margin: 2% 15% !important;} } 
+
+
+    .transbox {
+        background-color: #ffffff;
+        border: 2px solid green;
+        opacity: 0.5;
+        height: 60px;
+        margin-top: 15% ;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+    
+
+
+.main-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+     color: white;
+}
+.page-footer{
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+     color: white;
+}
+
+/* .show-on-hover:hover > ul.dropdown-menu {
+    display: block;  
+    
+} */
+
+.details{
+    margin: 5%;
+    width:60%;
+    padding: 12px;
+    float: left
+}
+
